@@ -1,0 +1,6 @@
+def show_letters(word):
+	for w in range (0, len(word)):
+		print(word [w])
+
+show_letters("Hello")
+# Should print one line per letter
